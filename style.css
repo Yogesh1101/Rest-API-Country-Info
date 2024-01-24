@@ -1,0 +1,28 @@
+header{
+    height: 80px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttonClick{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    width: 200px;
+}
+.buttonClick:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
